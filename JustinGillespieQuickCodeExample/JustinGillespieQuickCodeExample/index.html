@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Justin Gillespie's Quick Example Code</title>
+		<link href="css/exampleCSS.css" rel="stylesheet">
+	</head>
+
+	<body>
+	
+		<br>
+	
+		<h1 class="headerText">Example Code</h1>
+		
+		<br>
+		
+		<div class="slideShow"> <!--Images for slide show-->
+		   <div class="slide fade">
+				<div class="numbertext">1 of 3</div>
+				<a href="infoOne.html">
+					<img class="pic" src="images/infograph_01.jpg" />
+				</a>
+				<div class="text">Template</div>
+		   </div>
+
+		   <div class="slide fade">
+				<div class="numbertext">2 of 3</div>
+				<a href="infoTwo.html">
+					<img class="pic" src="images/infograph_02.jpg" />
+				</a>
+				<div class="text">Lorem Ipsum Graph</div>
+		   </div>
+
+		   <div class="slide fade">
+				<div class="numbertext">3 of 3</div>
+				<a href="infoThree.html">
+					<img class="pic" src="images/infograph_03.jpg" />
+				</a>
+				<div class="text">Circular Graph Thing</div>
+		   </div>
+		</div>
+		  
+		<br>
+		  
+		<div style="text-align:center"> <!--dots for bellow the slide show to show where you are at in it-->
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+		</div>
+		
+		<br>
+		<br>
+		
+		<div> <!--body text-->
+			<p class="baseText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus purus, fringilla non urna et, maximus egestas purus. Ut id bibendum ipsum. Nullam id ultricies mauris, a lobortis magna. Integer ornare a lorem nec mattis. Etiam feugiat ac est et elementum. Etiam varius leo in condimentum consequat. Ut a erat quis nisi ornare tempus non at lacus. Vestibulum at dolor a enim tincidunt hendrerit. Aenean varius, lorem eget tempus ultrices, nunc nunc finibus arcu, non convallis ante erat at neque. Nullam leo magna, vehicula at hendrerit et, gravida eu velit. Phasellus aliquet egestas felis, ut pulvinar est placerat at. Mauris lacus justo, vulputate at gravida eu, finibus at ipsum. Proin nibh nibh, sagittis sed gravida non, iaculis id nisl. Donec non nulla et erat interdum porta vel cursus elit. Integer rhoncus luctus libero in euismod. Cras quis efficitur quam.
+			<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duis faucibus felis eu libero maximus, ut pharetra nisl placerat. Maecenas eget maximus odio. Etiam maximus eu felis at tempor. Vivamus porta massa eu lorem consectetur, non pharetra ipsum interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ultrices, felis a lacinia scelerisque, sapien est dictum sapien, ac sagittis justo neque vitae enim. Sed laoreet elit tortor, et accumsan nisi iaculis nec.
+			<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praesent elit est, feugiat vel efficitur non, consectetur ac justo. Suspendisse auctor ligula et turpis efficitur condimentum. Quisque luctus purus mollis ipsum convallis auctor. Integer sollicitudin iaculis mauris in scelerisque. Quisque fermentum nisi ligula, tincidunt venenatis orci fringilla at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed elit sem, consectetur eu ante eu, convallis finibus tellus. Praesent ac augue dapibus, tincidunt tortor sed, consectetur orci. Donec et fermentum tellus, et tincidunt nulla. Pellentesque interdum mauris ac quam porta consectetur. Donec interdum quis felis a finibus. Curabitur ac enim augue. Maecenas dolor nulla, blandit quis neque sed, ullamcorper interdum justo. Morbi quis tellus et ligula gravida faucibus.
+			<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donec placerat blandit maximus. Quisque ac auctor sem. Proin sem odio, semper ac ullamcorper vitae, auctor vel justo. Aliquam id facilisis libero. Nulla facilisi. Curabitur sollicitudin ipsum eu malesuada elementum. Maecenas porttitor a justo eget maximus. Aliquam et velit placerat, malesuada ligula eget, dignissim neque. Etiam dictum quis massa a vehicula. Donec suscipit fringilla nunc, dignissim lacinia urna euismod eu. Sed semper lacus ut venenatis convallis. Cras scelerisque non velit egestas pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur luctus magna est, at accumsan ex volutpat et. Praesent porta sem id tellus convallis, eu ullamcorper mauris fringilla. Maecenas pharetra cursus interdum.
+			<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maecenas lectus lacus, aliquam porttitor facilisis et, lacinia at dolor. Aenean convallis vel ante sit amet egestas. Maecenas sed nibh ut justo pulvinar imperdiet et rutrum nulla. In hac habitasse platea dictumst. Nam neque diam, consequat eget hendrerit id, imperdiet quis ex. Duis non eros non mi mattis ullamcorper venenatis in magna. Sed ultricies nulla ac nisi tristique, ac lobortis lacus imperdiet. Cras dignissim ullamcorper vestibulum. Quisque id convallis enim, quis dignissim tellus. Ut erat orci, condimentum vitae suscipit quis, rutrum quis sapien. Sed tincidunt ullamcorper diam non ultrices. Nulla vel porttitor ex, non aliquam lacus. Donec et erat convallis, elementum orci eu, cursus neque. Ut ut urna ut lorem mollis facilisis id in risus.</p>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		
+		
+		
+		<script>
+		var slideIndex = 0; //automatic slide show
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("slide");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 4500);
+		}
+		</script>
+		
+		
+	</body>
+</html>

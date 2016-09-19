@@ -1,0 +1,144 @@
+.btn.btn-success{
+    background-color:#269abc;
+    color:#fff;
+    border-color:#269abc;
+}
+.btn.btn-success:hover{
+    background-color:#2a6496;
+    border-color:#2a6496;
+}
+.navbar{border-radius:0;}
+.navbar-header h4{
+    color:#adadad;
+    padding-top:2px;
+    font-size:24px;
+}
+
+#personal{display:none;}
+
+.container{max-width:800px;text-align:center;padding-bottom:10px;}
+.container h3{color:#269abc;}
+.container h2{color:white;}
+
+.container-fluid{background-color:black; text-align:center;}
+
+.jumbotron p{color:darkgrey; margin-top:5px;}
+.jumbotron h1{color:white;}
+.jumbotron {background-color:#2A658E;}
+.btn.btn-group-lg:hover{color:#2a6496;}
+
+.panel-footer p{color:darkgrey;}
+
+.glyphicon-chevron-down:hover{cursor:pointer;}
+.glyphicon-chevron-up:hover{cursor:pointer;}
+.glyphicon-chevron-up p:hover{cursor:pointer; color:black;}
+
+.modal-content{text-align:center;}
+
+input[type="file"]{padding-top:3px;}
+
+#resumeUpload{margin-left: 33%; margin-bottom: 5%;}
+
+/* ------------FACULTY PAGE------------> */
+.nav-tabs.nav-justified{border-bottom:1px; margin-bottom:20px;}
+.nav.nav-tabs.nav-justified a{color:#f5f5f5;background-color:black;}
+.nav.nav-tabs.nav-justified a:hover{background-color:#222; cursor:pointer;}
+.nav.nav-tabs.nav-justified li.active a:hover{color:#f5f5f5;}
+
+#facultyNavbar{margin-bottom:0; border:none;}
+
+
+.col-md-3.col-md-offset-4{margin-left:37.67%;}
+.col-md-6.col-md-offset-2{margin-left:25%;}
+.col-md-8.col-md-offset-2{background-color:#2a6496; margin-bottom:40px; margin-top:50px;}
+.col-md-8.col-md-offset-2 h1{color:white;}
+
+form{margin-bottom:20px;}
+
+.input-group{margin-bottom:10px;}
+#btn-search{border-color:#2a6496; margin-bottom:10px;}
+#btn-search:hover{background-color:#269abc; margin-bottom:10px;}
+
+#classes h1{color:#269abc;}
+
+#students ul{margin-left:-8%; width:100%; text-align:center;}
+#students h4{position:relative; float:left; line-height:2.1;}
+#students li{margin-left:10px;}
+
+.list-group-item{display:inline-block; margin-bottom:10px; margin-left:3%;}
+
+/* ------------STUDENT OVERVIEW PAGE------------> */
+/*#overview{max-width:970px;}*/
+.list-group-item.overview{display:block; border:3px solid #ddd}
+
+.col-sm-offset-1{position:fixed; right:15%;}
+.studentInfo{border:2px solid #ddd; margin-bottom:20px;}
+
+.list-group-item-text{margin:10px;}
+
+.glyphicon-asterisk{color:#2a6496;}
+
+/* ------------ERROR PAGE------------> */
+#errorPage{padding-top:50px;}
+
+/* ------------SEMESTER PAGE------------> */
+.modal-title{margin:2%;} 
+
+#majorActivities .checkBox{margin-right:10px;}
+
+.closeGoal{float:none;}
+
+.h4Goal{line-height:25px; width:80%;}
+
+.input-group .form-control{z-index:0;}
+
+#goalContainer .hideStep{margin-bottom:1%;}
+#goalContainer .glyphicon:hover{cursor:pointer; color:#2a6496;}
+#goalContainer button{margin-bottom:3%;}
+#goalContainer .addStep{width:80%; margin-left:8%;}
+#goalContainer .list-group-item{background-color:#269abc; color:white;}
+#goalContainer button:hover{background-color:orange;}
+
+.updateGoal{color:white; text-decoration:none;}
+.updateGoal:hover{text-decoration:none;}
+
+hr{border-top:2px solid #eee;}
+
+#experienceContainer button {margin-bottom: 3%;}
+#experienceContainer .list-group-item{width:90%; background-color:#269abc; color:white;}
+#experienceContainer .glyphicon:hover{cursor:pointer; color:#2a6496;}
+#experienceContainer a{color:white; text-decoration:none;}
+#experienceContainer a:hover{color:#2a6496; text-decoration:none;}
+#experienceContainer button:hover{background-color:orange;}
+
+.editable-container.editable-inline {display: block;}
+.editable-input {display: inline;}
+.editableform .form-control{width: 85%;}
+.editableform .control-group{width:100%;}
+
+.ui-tabs .ui-tabs-nav li{margin-bottom:5px;}
+
+div.activities {
+    border: 2px solid rgb(216, 163, 30);
+    padding: 5px;
+    width: 40%;
+    margin: 2%;
+    display: inline-block;
+    background-color:rgb(214, 222, 247);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.activities:hover{cursor:pointer;}
+.activities input[type="checkbox"]{margin-right:4px;}
+
+.well-lg {padding:50px; border-color:#269abc; margin-top:15px; width:18%; color:darkgoldenrod; position:fixed; left:2%; top:20%; z-index:-1;}
+#addOther {width:45%; position: relative; margin-top:3%; margin-left:30%;}
+
+#semesterSidebar{position: fixed; right:0; top: 23%; width: 21%;}
+
+.glyphicon .glyphicon-book:hover{color:#2a6496; cursor:pointer;}
+
+.checkGoal{margin-top:2%;}
+
+.removeDescription{float:none;}
