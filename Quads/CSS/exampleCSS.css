@@ -1,0 +1,182 @@
+/*Main formatting*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.slides {
+	display:none;
+	position: relative;	
+}
+
+html, body {
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+	height: 100%;
+}
+
+#SlidesContain {
+	height: 100%;
+}
+
+/*Slideshow container*/
+
+.miniContain {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/*Page coloring*/
+#slideRh {
+	background-color: #AFB42B;
+	width: 100%;
+	min-height: 100%;
+}
+
+#slideRe {
+	background-color: #039BE5;
+	width: 100%;
+	min-height: 100%;
+}
+
+#slideSq {
+	background-color: #66BB6A;
+	width: 100%;
+	min-height: 100%;
+}
+
+#sOne {
+	background-color: #AFB42B;
+}
+
+#sTwo {
+	background-color: #039BE5;
+}
+
+#sThree {
+	background-color: #66BB6A;
+}
+
+/*The text*/
+#headerRh {
+	text-align: center;
+	background-color: #AFB42B;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+}
+
+#headerRe {
+	text-align: center;
+	background-color: #039BE5;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+}
+
+#headerSq {
+	text-align: center;
+	background-color: #66BB6A;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+}
+
+.tText {
+	color: #f2f2f2;
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.sText {
+	color: #f2f2f2;
+	font-size: 15px;
+	width: 100%;
+	text-align: left;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+#headerRh {
+	text-align: center;
+	background-color: #AFB42B;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+}
+
+#headerRe {
+	text-align: center;
+	background-color: #039BE5;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+}
+
+#headerSq {
+	text-align: center;
+	background-color: #66BB6A;
+	color: #f2f2f2;
+	margin: 0;
+	padding: 0;  
+	border: 0px;
+}
+
+.discl {
+	text-align: left;
+	color: #f2f2f2;	
+	font-size: 10px;
+	margin-top: 5%;
+	padding: 0;  
+	border: 0px;
+}
+
+/*the images*/
+.image {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+/*The next and back buttons*/
+.back, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.back:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.back, .next,.tText, .sText {
+		font-size: 11px
+	}
+	.discl {
+		font-size: 6px
+	}
+}

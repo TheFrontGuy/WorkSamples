@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>A short note on quadrilaterals</title>
+		<link href="CSS/exampleCSS.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="SlidesContain">
+		
+			<div class="slides" id="slideRe">			
+				<div class="miniContain">
+					<br>
+					<h1 id="headerRe">A Short Note on Quadrilaterals</h1>
+					<br>
+					<img class="image" src="images/rectangle.png">
+					<br>
+					<h4 class="tText">The Rectangle</h4>
+					<br>
+					<div id="sTwo">
+						<div class="sText">In Euclidean plane geometry, a rectangle is a quadrilateral with four right angles. 
+						It can also be defined as an equiangular quadrilateral, since equiangular means that 
+						all of its angles are equal (360/4 = 90). It can also be defined as a parallelogram 
+						containing a right angle. A rectangle with four sides of equal length is a square. The 
+						term oblong is occasionally used to refer to a non-square rectangle. The word rectangle comes from the Latin rectangulus,
+						which is a combination of rectus (right) and angulus (angle).
+						</div>
+					</div>					
+					<div class="discl">
+						For the purpose of the tech demo, all information has been taken from Wikipedia.org.
+					</div>
+				</div>
+			</div>
+
+			<div class="slides" id="slideRh">
+				<div class="miniContain">
+					<br>
+					<h1 id="headerRh">A Short Note on Quadrilaterals</h1>
+					<br>
+					<img class="image" src="images/rhombus.png">
+					<br>
+					<h4 class="tText">The Rhombus</h4>
+					<br>
+					<div id="sOne">
+						<div class="sText">In Euclidean geometry, a rhombus is a simple quadrilateral whose four 
+						sides all have the same length. Another name is equilateral quadrilateral, 
+						since equilateral means that all of its sides are equal in length. The rhombus 
+						is often called a diamond, after the diamonds suit in playing cards which resembles 
+						the projection of an octahedral diamond, or a lozenge, though the former sometimes 
+						refers specifically to a rhombus with a 60 degree angle, and the latter sometimes refers 
+						specifically to a rhombus with a 45 degree angle. Every rhombus is a parallelogram and a 
+						kite. A rhombus with right angles is a square.</div>
+					</div>					
+					<div class="discl">
+						For the purpose of the tech demo, all information has been taken from Wikipedia.org.
+					</div>
+				</div>
+			</div>
+
+			<div class="slides" id="slideSq">
+				<div class="miniContain">
+					<br>
+					<h1 id="headerSq">A Short Note on Quadrilaterals</h1>
+					<br>
+					<img class="image" src="images/square.png">
+					<br>
+					<h4 class="tText">The Square</h4>
+					<br>
+					<div id="sThree">
+						<div class="sText">In geometry, a square is a regular quadrilateral, which means that it 
+						has four equal sides and four equal angles (90-degree angles, or right angles). 
+						It can also be defined as a rectangle in which two adjacent sides have equal length.
+						</div>
+					</div>					
+					<div class="discl">
+						For the purpose of the tech demo, all information has been taken from Wikipedia.org.
+					</div>
+				</div>
+			</div>
+
+			<a class="back" onclick="plusSlides(-1)"><</a>
+			<a class="next" onclick="plusSlides(1)">></a>
+
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("slides");
+				
+				
+				if (n > slides.length) {slideIndex = 1}    
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				}
+				slides[slideIndex-1].style.display = "block";
+			}
+			
+
+		</script>
+		
+		
+	</body>
+</html>
