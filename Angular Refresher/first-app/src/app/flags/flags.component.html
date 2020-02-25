@@ -1,0 +1,15 @@
+<h3 [ngStyle]="{color:getColor()}">This is an example of *ngif</h3>
+<h4 [ngClass]="{'white':flag}">do you like the [ngStyle]?</h4>
+
+<p *ngIf="flag, else elseblock">Flag is True</p>
+<ng-template #elseblock>
+  <p>Flag is False</p>
+</ng-template>
+
+<button (click)="toggleFlag()">Toggle Flag</button>
+
+<h3>List-O-Names</h3>
+<input type="text" placeholder="name" [(ngModel)]="currentName">
+<button (click)="add()">Submit a Name</button>
+
+<li *ngFor="let names of listONames">{{names}}</li>
