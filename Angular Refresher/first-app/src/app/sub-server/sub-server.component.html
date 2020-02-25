@@ -1,0 +1,11 @@
+<h3>The Sub Server</h3>
+
+<input type="text" placeholder="Sub Server Name" class="serverinput" [(ngModel)]="SubServerName">
+<h3>Display Server Information</h3>
+<ul>
+  <li>{{SubServerName}}</li>
+  <li>{{SubServerPID}}</li>
+  <li>{{SubServerStatus}}</li>
+</ul>
+
+<button [disabled]="ButtonState" (click)="toggleServerStatus()">Sub Server Status</button>
