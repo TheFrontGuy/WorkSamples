@@ -1,0 +1,4 @@
+<h3>Please Enter your First Name</h3>
+<input type="text" name="name" placeholder="Enter your first name" [(ngModel)]="fName">
+<p>Your first name is: {{fName}}!</p>
+<button [disabled]="checkName()" (click)="clearInput()">Clear</button>
